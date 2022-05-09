@@ -1,0 +1,26 @@
+
+
+{{#if errors }}
+    {{#each errors }}
+        <p class="alert alert-danger">{{ msg }}</p>
+    {{/each}}
+{{/if}}
+
+<form action="/edit/{{order.id}}" method="post">
+ 
+        <div class="form-group">
+          <div class="col-md-4 mb-3">
+            <label for="nameInputLabel">Descrição:</label>
+            <input type="text" class="form-control" id="nameInputLabel" name="description" value={{order.description}}>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-md-4 mb-3">
+            <label for="emailInputLabel">Quantidade:</label>
+            <input type="text" class="form-control" id="emailInputLabel" name = "amount" value={{order.amount}}>
+          </div>
+        </div>   
+      
+        <button type="submit" class="btn btn-primary" name="submit">Enviar</button>
+</form>

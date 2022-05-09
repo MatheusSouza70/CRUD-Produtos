@@ -1,0 +1,52 @@
+
+
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">E-mail</th>
+     
+
+    </tr>
+  </thead>
+  <tbody>
+
+
+    {{#each results }}
+        <tr class="table-primary"> 
+        <td> {{ id }}</td>
+        <td> {{ name }} </td>
+        <td> {{ email }} </td></tr>
+    
+        <tr><td>
+            <table class="table table-light">
+            <thead>
+                <tr>
+                <th scope="col">#</th>
+                <th scope="col">Descrição dos itens.</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+                </tr>
+            </thead>
+
+            <tbody>
+             
+               {{#each orders}}
+                  
+                    <tr> <td> {{ id }} </td>
+                    <td> {{ description}}</td>
+                    <td> {{ amount }} </td></tr>
+                   
+                {{/each}}
+
+
+            </body>
+           
+            </table>
+         </td></tr>   
+
+        {{/each}}    
+    </body>
+</table>
