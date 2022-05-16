@@ -1,6 +1,7 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!------ Include the above in your HEAD tag ---------->
 
 <body>
@@ -22,31 +23,43 @@
 {{/if}}
 
 
+{{!-- 
+
+         <img src="./MicrosoftTeams-image.png" width="100%" height="100%">
+       --}}
+<h3 class="text-center pt-5">Login form</h3>
+
+<img src="https://raw.githubusercontent.com/RodrigoAnjos2004/Login-dashboard/main/src/components/assets/MicrosoftTeams-image.png" alt="..." class="rounded mx-auto d-block" style="width:130px;height:160px;">
+
     <div id="login">
-        <h3 class="text-center text-white pt-5">Login form</h3>
-        <div class="container">
+        {{!-- <h3 class="text-center text-white pt-5">Login form</h3> --}}
+        <div class="container ">
             <div id="login-row" class="row justify-content-center align-items-center">
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
-                        <form id="login-form" class="form" action="/login" method="post">
-                    
-                            <h3 class="text-center text-info">Login</h3>
+                        <form id="login-form" class="form col-12 col-lg-11 login-card mt-5 hv-center " action="/login" method="post">
+                            {{!-- <h3 class="text-center ">Login</h3> --}}
                             <div class="form-group">
-                                <label for="username" class="text-info">Usuário (e-mail):</label><br>
-                                <input type="text" name="email" id="email" class="form-control">
+                            <div>
+                                 <label for="username">Usuário (e-mail):</label>                                
+                                 <i class="fa fa-user" aria-hidden="true"></i>
+                                <input type="text" class="form-control" id="email" name="email"
+                                 placeholder="email" >
+                                                      
                             </div>
                             <div class="form-group">
-                                <label for="password" class="text-info">Senha:</label><br>
-                                <input type="password" name="password" id="password" class="form-control">
+                                 <label for="password">Senha:</label>
+                                  <i class="fa fa-lock" aria-hidden="true"></i>
+                                 <input type="password" class="form-control" id="password" name="password"
+                                 placeholder="senha">
                             </div>
                             <div id="register-link" class="text-right">
                                 <a href="/registration" class="text-info">Registrar</a>
                             </div>
                             <div class="form-group">
   
-                                <input type="submit" name="submit" class="btn btn-info btn-md" value="enviar">
+                                <input type="submit" name="submit" class="btn btn-success btn-md" value="enviar">
                             </div>
-                            
                         </form>
                     </div>
                 </div>
