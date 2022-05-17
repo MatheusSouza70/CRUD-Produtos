@@ -58,5 +58,5 @@ app.use(customersRoutes)
 
 const PORT = 8081
 app.listen(PORT,function(){
-    console.log("Server running at " + PORT)
+    console.log("Servidor rodando em localhost:" + PORT)
 })

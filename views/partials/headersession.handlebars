@@ -1,35 +1,47 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">{{#if admin }} Admin {{else }} User {{/if}} Session</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-
-          <li class="nav-item active">
-
-          
-          <a class="nav-link" href=" ">Home <span class="sr-only">(current)</span></a>
-            
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/logout">Sair</a>
-          </li>
-
-          </div>
-        </div>
-
-        <div class="collapse navbar-collapse" id="navbarNav">  
- 
-          <span class="navbar-text">
-              {{#if admin }}
-              ADMINISTRATION
-              {{else}}
-              Bem-vindo, Mr.
-              {{ userdata.name }}
-              {{/if}}
+  <a class="navbar-brand" href="#">
+    {{#if admin}}
+      Admin
+    {{else}}
+      Usuário
+    {{/if}}
+    Sessão
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="">
+          Home
+          <span class="sr-only">
+            (atual)
           </span>
-
-        </div>
-
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/logout">
+          Sair
+        </a>
+      </li>
+    </div>
+  </div>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <span class="navbar-text">
+      {{#if admin}}
+        Administração
+      {{else}}
+        Bem-vindo, Mr.{{userdata.name}}
+      {{/if}}
+    </span>
+  </div>
 </nav>

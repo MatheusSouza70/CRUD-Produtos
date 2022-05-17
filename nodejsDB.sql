@@ -6,7 +6,8 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `nodejsDB`
 --
-
+create database nodejsDB;
+use nodejsDB;
 -- --------------------------------------------------------
 
 --
