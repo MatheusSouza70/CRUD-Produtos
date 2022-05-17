@@ -14,7 +14,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `customers` (
-  `id` bigint(20) NOT NULL auto_increment,
+  `id` bigint(20) NOT NULL auto_increment primary key,
   `name` varchar(255) DEFAULT NULL,
   `email` varchar(255) DEFAULT NULL,
   `passwd` varchar(255) DEFAULT NULL,
@@ -38,7 +38,7 @@ INSERT INTO `customers` (`id`, `name`, `email`, `passwd`, `created_at`, `updated
 --
 
 CREATE TABLE `orders` (
-  `id` bigint(20) NOT NULL auto_increment,
+  `id` bigint(20) NOT NULL auto_increment primary key,
   `customer_id` bigint(20) DEFAULT NULL,
   `description` varchar(255) DEFAULT NULL,
   `amount` double(15,2) DEFAULT NULL,
