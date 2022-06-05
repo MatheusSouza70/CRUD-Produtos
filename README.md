@@ -105,19 +105,19 @@ Um pequeno exemplo de como iniciar nosso projeto.
 * Outras dependencias
   São outras dependências necessárias para instalação do projeto;
 
-  =>  "@handlebars/allow-prototype-access"
-  =>  "body-parser"
-  =>  "connect-flash"
-  =>  "express"
-  =>  "express-handlebars"
-  =>  "express-session"
-  =>  "express-validator"
-  =>  "handlebars"
-  =>  "mariadb"
-  =>  "md5"
-  =>  "mysql2"
-  =>  "nodemon"
-  =>  "sequelize"
+1.   =>  "@handlebars/allow-prototype-access"
+2.   =>  "body-parser"
+3.   =>  "connect-flash"
+4.   =>  "express"
+5.   =>  "express-handlebars"
+6.   =>  "express-session"
+7.   =>  "express-validator"
+8.   =>  "handlebars"
+9.   =>  "mariadb"
+10.  =>  "md5"
+11.  =>  "mysql2"
+12.  =>  "nodemon"
+13.  =>  "sequelize"
 
   
 ### Instalação
@@ -136,15 +136,24 @@ Um pequeno exemplo de como iniciar nosso projeto.
 
 <!-- USAGE EXAMPLES -->
 ## Uso
-=> 1:
-  Primeiro passo é iniciar os dois aplicativos, XAMPP e MYSQL Workbench. Com eles, você poderá iniciar o servidor que fará a conexão com o banco de dados, onde será armazenado nossos dados.
+1.  Primeiro passo é iniciar os dois aplicativos, XAMPP e MYSQL Workbench. Com eles, você poderá iniciar o servidor que fará a conexão com o banco de dados, onde será armazenado nossos dados.
   No MYSQL Workbench, você deverá executar a query de criação de banco e tabelas armazenadas em `nodejsDB.sql`, assim o nosso servidor irá reconhecer o banco.
   Após iniciar e configurar esses aplicativos, você poderá executar o nosso app com o comando `npm start`, ele nos mostrará no terminal onde está o endereço local para acessa-lo.
-=> 2:
-  Na tela de login, os dados que você cadastrar serão armazenados no banco de dados. Ao cadastrar-se e logar com os dados corretos, você entrará em nosso gerenciador de produtos, no qual você pode inserir, editar e apagar produtos.
-  
-  
+2. Na tela de login, os dados que você cadastrar serão armazenados no banco de dados. Ao cadastrar-se e logar com os dados corretos, você entrará em nosso gerenciador de produtos, no qual você pode inserir, editar e apagar produtos.
+ 
 
+1.
+![](https://cdn.discordapp.com/attachments/704805407906070581/983063610458787890/Desktop_2022.06.05_-_14.31.21.01_Trim.gif)
+
+2. 
+![](https://cdn.discordapp.com/attachments/704805407906070581/983064164975128576/Desktop-2022.06.05-14.31.21.01_Trim-_2_.gif)
+
+3. 
+![](https://cdn.discordapp.com/attachments/704805407906070581/983064624301756456/Desktop-2022.06.05-14.31.21.01_Trim-_3_.gif)
+
+Rodando o projeto no navegador e mostrando suas funcionalidades.
+
+[![Projeto no Navegador](https://yt-embed.herokuapp.com/embed?v=_pbnh7DbY2c)](https://www.youtube.com/watch?v=_pbnh7DbY2c)
 
 <p align="right">(<a href="#top">Voltar para o início</a>)</p>
 
