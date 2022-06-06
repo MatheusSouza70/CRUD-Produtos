@@ -31,7 +31,7 @@ INSERT INTO `customers` (`id`, `name`, `email`, `passwd`, `created_at`, `updated
 (1, 'admin', 'admin@admin.adm', '21232f297a57a5a743894a0e4a801fc3', '2022-06-01 18:43:13', '2022-06-01 18:43:13'),
 (2, 'Matheus Dutra Souza', 'matheus@gmail.com', '45339359513f09155110f63f7ca91c3e', '2022-06-01 18:43:37', '2022-06-01 18:43:37'),
 (3, 'Pedro Henrique Lira da Silva Bispo', 'phenrique@gmail.com', 'c6cc8094c2dc07b700ffcc36d64e2138', '2022-06-01 17:59:08', '2022-06-01 17:59:08'),
-(4, 'Rodrigo Silva dos Anjos', 'rodrigo@gmail.com', '2e247e2eb505c42b362e80ed4d05b078', '2022-06-01 18:34:08', '2022-06-01 18:59:35'),
+(4, 'Rodrigo Silva dos Anjos', 'rodrigo@gmail.com', '2e247e2eb505c42b362e80ed4d05b078', '2022-06-01 18:34:08', '2022-06-01 18:59:35');
 
 -- --------------------------------------------------------
 
