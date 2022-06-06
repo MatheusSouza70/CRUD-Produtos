@@ -28,9 +28,10 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`id`, `name`, `email`, `passwd`, `created_at`, `updated_at`) VALUES
-(1, 'admin', 'admin@admin.adm', '21232f297a57a5a743894a0e4a801fc3', '2020-06-09 18:43:13', '2020-06-09 18:43:13'),
-(2, 'Eduardo Wenzel Brião', 'eduardo.briao@gmail.com', '6d6354ece40846bf7fca65dfabd5d9d4', '2020-06-09 18:43:37', '2020-06-09 18:43:37'),
-(3, 'Henrique Dourado Brião', 'henrique@gmail.com', '83a6c8fb8e054de73cb4f76c3c6f9701', '2020-06-10 17:59:08', '2020-06-10 17:59:08');
+(1, 'admin', 'admin@admin.adm', '21232f297a57a5a743894a0e4a801fc3', '2022-06-01 18:43:13', '2022-06-01 18:43:13'),
+(2, 'Matheus Dutra Souza', 'matheus@gmail.com', '45339359513f09155110f63f7ca91c3e', '2022-06-01 18:43:37', '2022-06-01 18:43:37'),
+(3, 'Pedro Henrique Lira da Silva Bispo', 'phenrique@gmail.com', 'c6cc8094c2dc07b700ffcc36d64e2138', '2022-06-01 17:59:08', '2022-06-01 17:59:08'),
+(4, 'Rodrigo Silva dos Anjos', 'rodrigo@gmail.com', '2e247e2eb505c42b362e80ed4d05b078', '2022-06-01 18:34:08', '2022-06-01 18:59:35'),
 
 -- --------------------------------------------------------
 
@@ -59,10 +60,12 @@ INSERT INTO `orders` (`id`, `customer_id`, `description`, `amount`, `created_at`
 (6, 3, 'Playstation 3', 1.00, '2020-06-10 17:59:58', '2020-06-10 17:59:58'),
 (7, 3, 'Lego Jurassic Park', 5.00, '2020-06-10 18:00:13', '2020-06-10 18:00:13'),
 (8, 3, 'Motorola E8', 1.00, '2020-06-10 18:00:30', '2020-06-10 18:00:30'),
-(9, 3, 'Tablet Samsung A7', 1.00, '2020-06-10 18:00:42', '2020-06-10 18:00:42'),
+(9, 4, 'Tablet Samsung A7', 1.00, '2020-06-10 18:00:42', '2020-06-10 18:00:42'),
 (12, 2, 'Pen drive', 12.00, '2020-06-10 20:28:08', '2020-06-10 20:28:08'),
 (13, 3, 'Animes', 10.00, '2020-06-10 20:28:55', '2020-06-10 20:28:55');
 
+
+-- --------------- FIM DAS QUERIES NECESSÁRIAS, DESCONSIDERE TUDO ABAIXO. APENAS USE CASO NECESSÁRIO. --------------- --
 --
 -- Índices de tabelas apagadas
 --
