@@ -34,7 +34,7 @@
     <li>
       <a href="#sobre-o-projeto">Sobre o projeto</a>
       <ul>
-        <li><a href="#feito-com">Feito com</a></li>
+        <li><a href="#ferramentas">Ferramentas</a></li>
       </ul>
     </li>
     <li>
@@ -68,14 +68,14 @@ Um CRUD de produtos com um login funcional, utilizando banco para gerenciar as i
 
 
 
-### Feito com
+### Ferramentas
 
 * [React.js](https://reactjs.org/)
 * [Bootstrap](https://getbootstrap.com)
 * [Handlebars](https://handlebarsjs.com)
 * [Sequelize](https://sequelize.org)
 * [Express](https://expressjs.com/pt-br/)
-
+* [Visual Studio Code](https://code.visualstudio.com)
 
 
 <p align="right">(<a href="#top">Voltar para o início</a>)</p>
@@ -142,18 +142,22 @@ Um pequeno exemplo de como iniciar nosso projeto.
 2. Na tela de login, os dados que você cadastrar serão armazenados no banco de dados. Ao cadastrar-se e logar com os dados corretos, você entrará em nosso gerenciador de produtos, no qual você pode inserir, editar e apagar produtos.
  
 
-1.
+1. Instalando dependências do projeto
 ![](https://cdn.discordapp.com/attachments/704805407906070581/983063610458787890/Desktop_2022.06.05_-_14.31.21.01_Trim.gif)
 
-2. 
+2. Inicializando o XAMPP
 ![](https://cdn.discordapp.com/attachments/704805407906070581/983064164975128576/Desktop-2022.06.05-14.31.21.01_Trim-_2_.gif)
 
-3. 
+3. Inicializando o MYSQL Workbench com suas queries
 ![](https://cdn.discordapp.com/attachments/704805407906070581/983064624301756456/Desktop-2022.06.05-14.31.21.01_Trim-_3_.gif)
 
-Rodando o projeto no navegador e mostrando suas funcionalidades.
+4. Rodando o projeto no navegador e mostrando suas funcionalidades.
 
 [![Projeto no Navegador](https://yt-embed.herokuapp.com/embed?v=_pbnh7DbY2c)](https://www.youtube.com/watch?v=_pbnh7DbY2c)
+
+5. Função de administrador (gerenciar usuários)
+
+![](https://cdn.discordapp.com/attachments/704805407906070581/983174736580325456/Desktop-2022.06.05-14.34.44.03_Trim.gif)
 
 <p align="right">(<a href="#top">Voltar para o início</a>)</p>
 
