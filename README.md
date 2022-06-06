@@ -57,14 +57,19 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o projeto
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://media.discordapp.net/attachments/704805407906070581/983185875007602728/unknown.png?width=590&height=480)
+
+CRUD
+![](https://media.discordapp.net/attachments/704805407906070581/983185797148712970/unknown.png?width=1020&height=320)
+
+<br/>
 
 Este projeto é voltado únicamente para ESTUDOS.
 
 A ideia do projeto é misturar front, back-end com banco de dados.
 Um CRUD de produtos com um login funcional, utilizando banco para gerenciar as informações.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">Voltar para o início</a>)</p>
 
 
 
@@ -229,6 +234,6 @@ Link do Projeto: [https://github.com/MatheusSouza70/CRUD-Produtos](https://githu
 [license-url]: https://github.com/MatheusSouza70/CRUD-Produtos/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://br.linkedin.com/in/matheus-dutra-souza-02141221a
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://media.discordapp.net/attachments/704805407906070581/983185875007602728/unknown.png?width=590&height=480
 
 
